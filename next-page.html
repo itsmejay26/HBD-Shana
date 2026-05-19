@@ -146,7 +146,6 @@
         .gift-box:nth-child(1) { animation: slideIn 0.6s 0.8s forwards; }
         .gift-box:nth-child(2) { animation: slideIn 0.6s 1s forwards; }
         .gift-box:nth-child(3) { animation: slideIn 0.6s 1.2s forwards; }
-        .gift-box:nth-child(4) { animation: slideIn 0.6s 1.4s forwards; }
 
         @keyframes slideIn {
             to {
@@ -189,10 +188,6 @@
 
         .gift-box:nth-child(3) .icon-container {
             background: linear-gradient(135deg, #FFB347 0%, #FF8C00 100%);
-        }
-
-        .gift-box:nth-child(4) .icon-container {
-            background: linear-gradient(135deg, #87CEEB 0%, #5BA3C6 100%);
         }
 
         .icon-container::after {
@@ -319,8 +314,6 @@
             height: 5px;
         }
 
-       
-
         @keyframes badge-pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.1); }
@@ -400,20 +393,10 @@
         </div>
 
         <div class="gift-box" onclick="navigateTo('letter.html')">
-            <div class="icon-container">💌</div>
+            <div class="icon-container">🎁</div>
             <div class="box-content">
-                <div class="box-title">Letter</div>
-                <div class="box-description">A message letter from us</div>
-            </div>
-            <div class="box-arrow">→</div>
-        </div>
-
-        <div class="gift-box" onclick="navigateTo('memories.html')">
-          
-            <div class="icon-container">📷</div>
-            <div class="box-content">
-                <div class="box-title">Memories with You</div>
-                <div class="box-description">Our precious moments together</div>
+                <div class="box-title">Gift</div>
+                <div class="box-description">Play a game to see the gift!</div>
             </div>
             <div class="box-arrow">→</div>
         </div>
@@ -496,5 +479,3 @@
     </script>
 </body>
 </html>
-
-
